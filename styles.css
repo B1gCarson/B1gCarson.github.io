@@ -1,0 +1,187 @@
+body{
+	font-family:Arial;
+}
+
+#content{
+	width:50%
+	margin:auto;
+	padding:5px;
+	border-radius:5px;
+}
+
+header{
+	background:#0080ff;
+	padding:5px;
+	color:white;
+	text-align:center;
+}
+
+nav{
+	color:white;
+	background:#cce6ff;
+	text-decoration:none;
+	padding:5px;
+	display:block;
+}
+
+main{
+	background:#99CCff;
+	padding:5px;
+	text-align:center;
+}
+
+#content{
+	width:50%;
+	margin:auto;
+}
+
+footer{
+	background:#0080ff;
+	padding:5px;
+	text-align:center;
+}
+
+/*Navigation*/
+#main-nav ul {
+	list-style-type:none;
+	padding-left:0;
+}
+
+#main-nav a {
+	text-decoration: none;
+	background:#0080f;
+	color:darkslategray;
+	padding:3px;
+	width:100%;
+	display:block;
+}
+
+#main-nav a:hover{
+	background:#F285AD;
+	color:#fff;
+}
+
+#main-nav li{
+	padding: 3px;
+	display:inline;
+	/*width:100%;
+	display:block;*/
+	text-align:center;
+}
+
+.contactcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+/*Larger Resolutions*/
+@media(min-width: 720px){
+	body{
+			background:url(images/lebron.jpg);
+	}
+	#content {
+		width:50%
+		margin:auto;
+	}
+	
+	#main-nav li, #main-nav a{
+		display:inline;
+	}
+	
+	#main-nav{
+		text-align:center;
+	}
+	
+	/*.container{
+		display:flex;
+	}
+	
+	.container p{
+		flex:1;
+	}*/
+	
+	.list-item{
+		display:flex;
+	}
+	
+	.list-item img{
+		padding-right:5px;
+		flex:2;
+	}
+	
+	.item-description {
+		flex:8;
+	}
+	
+	@media print{
+		#main-nav{
+			display:none;
+		}
+		
+		header, footer, .sidebar {
+			display:none;
+		}
+		
+	}
+	
+	#contact{
+	 position: relative;
+	 left: 80px;
+	}
+
+.hidden {
+	 display: none;
+	 visibility: hidden;
+ }
+ 
+ .fancy{
+	border-radius: 25px;
+	border: 3px solid black;
+	background: white;
+	margin-left: 10px;
+	padding: 5px;
+	height: 280px;
+	width: 250px;
+	text-align: center;
+}
+
+#arrow-back{
+	flex:20;
+	text-align:center;
+	margin:auto;
+	font-size:400%;
+	font-weight:bold;
+	text-decoration:none;
+	color:blue
+ }
+ 
+ #arrow-forward{
+	flex:20;
+	text-align:center;
+	margin:auto;
+	font-size:400%;
+	font-weight:bold;
+	text-decoration:none;
+	color:blue
+ }#arrow-back{
+	flex:20;
+	text-align:center;
+	margin:auto;
+	font-size:200%;
+	font-weight:bold;
+	text-decoration:none;
+	color:blue
+ }
+ 
+ #arrow-forward{
+	flex:20;
+	text-align:center;
+	margin:auto;
+	font-size:200%;
+	font-weight:bold;
+	text-decoration:none;
+	color:blue
+ }
+
+.hidden{display: none;}
+#photo{margin:auto;}

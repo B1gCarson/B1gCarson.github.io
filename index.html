@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+			<!--Carson Spencer
+			CSCE 102
+			Section 013
+			22 Feb 2023-->
+			<meta charset = "utf-8">
+			<link rel="stylesheet" href="styles.css">
+			<title>Template</title>
+</head>
+<body>
+	<div id="content">
+			<header>
+				<h1 id="Header1">My Main Heading</h1>
+			</header>
+			<nav id="main-nav">
+				<ul id="list1">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<main class="container">
+				<section class="image-zoom" id="bigpic" function = "slideShow()">
+					<img src="images/vibe.jpeg" id="vibing" alt="Me looking cool">
+					<img src="images/pals.JPEG" class = "hidden" id="friends" alt="Me with my pals">
+					<img src="images/ari.jpeg" class = "hidden" id="ari" alt="Me with my friend, Ari">
+					<img src="images/child.JPG" class = "hidden" id="baby" alt="Me holding baby">
+				</section>
+				<section>
+					<h3>About Me</h3>
+					<div class="container">
+						<p>Hi there! My name is Carson Spencer, and I'm currently a senior at the University of South Carolina studying Sport and Entertainment Management. Being a college student has been a great experience for me, and I've enjoyed being part of such a vibrant and diverse community. I'm 21 years old, and I was born and raised in Columbia, SC, so I've always had a strong connection to this area. In my free time, I have a variety of hobbies that keep me busy. I enjoy lifting weights and playing pickup basketball to stay active, but I also love playing video games and having deep conversations about music. I'm a big movie fan too, so you'll often find me catching up on the latest releases.</p>
+						<p class="hidden" id="hidden1">One of the things that's most important to me is giving back to my community, and that's why I'm a Young Life leader at Dreher High School. Young Life is a Christian ministry that reaches out to students in middle school, high school, and college, and it's been an incredibly rewarding experience for me to be involved with this organization. I'm passionate about helping young people grow and develop, and it's been a joy to be part of their lives and support them through their challenges. I believe that we all have a responsibility to use our gifts and talents to make the world a better place, and being a Young Life leader is just one way that I try to live out that value.</p>
+						<a href="#" onclick="showHide()" id="link1">See More...</a>
+				</section>
+				<section>
+					<h3>My Future Career Plans</h3>
+					<p>As I approach the end of my college career, I have a clear set of goals in mind for my future. My first plan is to graduate in August 2023 after completing my internship with the South Carolina Gamecocks football team. This internship is a valuable opportunity for me to gain practical experience in my field of study, and I'm excited to work on the equipment staff with the team. I'm confident that this experience will prepare me for the next steps in my career.</p>
+					<p class="hidden" id="hidden2">Looking beyond my internship, I'm considering pursuing a degree in software engineering to further my knowledge in coding. I believe that this field will provide me with a solid foundation in computer science and software development, which will be valuable for my long-term goals. My ultimate goal is to merge my passion for sports with my technical skills in software engineering. I'm particularly interested in data analytics, and I hope to find a job in this field that will allow me to use my skills to contribute to the world of sports. I'm excited to see where this journey takes me and I'm looking forward to the challenges and opportunities that lie ahead.</p>
+					<a href="#" onclick="showHide2()" id="link2">See More...</a>
+				</section>
+				
+				<section>
+					<h3>What I learned From Computer Science</h3>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Ci0io0QFLQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</section>
+			</main>
+			<footer id="footer1">
+				<p>&copy; Carson</p>
+			</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

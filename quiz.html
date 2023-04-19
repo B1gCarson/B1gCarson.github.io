@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+			<!--Carson Spencer
+			CSCE 102
+			Section 013
+			22 Feb 2023-->
+			<meta charset = "utf-8">
+			<link rel="stylesheet" href="styles.css">
+			<title>Template</title>
+</head>
+<body>
+	<div id="quizconent">
+			<header>
+				<h1 id="Header1">My Main Heading</h1>
+			</header>
+			<nav id="main-nav">
+				<ul id="list1">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<main class="quizcontainer">
+				<section>
+					<h3>Silly Little Quiz</h3>
+					<p>
+						<label for="q1">Who plays Jo March in the 2019 Greta Gerwig film,<i> Little Women</i>?</label>
+						<select id="q1">
+							<option> </option>
+							<option>Emma Watson</option>
+							<option>Florence Pugh</option>
+							<option>Saoirse Ronan</option>
+							<option>Eliza Scanlen</option>
+						</select>
+					</p>
+					
+					<p>
+						<label for="q2">Who is the National Basketball Association (NBA) All-time leading scorer?</label>
+						<select id="q2">
+							<option> </option>
+							<option>Kareem Abdul-Jabbar</option>
+							<option>Kobe Bryant</option>
+							<option>Michael Jordan</option>
+							<option>LeBron James</option>
+						</select>
+					</p>
+					
+					<p>
+						<label for="q3">Which of these rap artists artists have won the most Grammy Awards?</label>
+						<select id="q3">
+							<option> </option>
+							<option>Eminem</option>
+							<option>J Cole</option>
+							<option>Kendrick Lamar</option>
+							<option>Drake</option>
+						</select>
+					</p>
+					
+					<p>
+						<label for="q4">Which lift is best for overall lower body development?</label>
+						<select id="q4">
+							<option> </option>
+							<option>Lunges</option>
+							<option>Calf Raises</option>
+							<option>Dead Lifts</option>
+							<option>Squats</option>
+						</select>
+					</p>
+					
+					<button id="btn-complete" onclick="showScore()">Submit Answers</button>
+				</section>
+				
+				<section>
+					<p id="score">
+					
+					</p>
+				</section>
+			</main>
+			<footer id="footer1">
+				<p>&copy; Carson</p>
+			</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
